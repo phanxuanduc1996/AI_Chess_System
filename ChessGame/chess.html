@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>BTL AI 20171 </title>
+		<script src=".\..\p5-zip\p5.js"></script>
+		<script src=".\..\p5-zip\addons\p5.dom.js"></script>
+		<script src=".\sketch.js"></script>
+		<script src=".\Variables.js"></script>
+		<script src=".\Chessman.js"></script>
+		<script src=".\Grid.js"></script>
+		<script src=".\Recorder.js"></script>
+		<script src=".\validateMove.js"></script>
+		<script src=".\MoveGenerator.js"></script>
+		<script src=".\ButtonCallback.js"></script>
+		<link rel="stylesheet" style="text/css" href=".\StyleSheet\stylesheet.css">
+	</head>
+	<body>
+		<form id="form" name="form">
+			<!-- <input id="radio" type="radio" name="side" value="BlackSide"><text style="color:white;"> Black Side </text> </input> -->
+			<!-- <input id="radio" type="radio" name="side" value="WhiteSide" checked><text style="color:white;"> White Side </text></input>  -->
+			<input id="button" type="button" name"startButton" value="Start" onclick="startTheGame();"></input>
+			<input id="button" type="button" name"refreshButton" value="Refresh" onclick="location.reload();"></input>
+		</form>
+		<div id="myCanvas"></div>
+	</body>
+</html>
